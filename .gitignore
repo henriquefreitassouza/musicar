@@ -1,0 +1,6 @@
+# Ignore everything
+*
+# Except the app folder and its subdirectories
+!.gitignore
+!/app
+!/app/**
