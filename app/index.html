@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Untitled Document</title>
+    <title>Musicar - Aprenda e toque a sua música</title>
     <meta charset="UTF-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
 </head>
 <body>
     <section id="hero">
-        <header>
-            <div>
-                <img src="assets/img/logo_musicar.png" alt="Musicar - Aprenda e toque a sua música" />
+        <div id="header" class="container center-align">
+            <header>
+                <div>
+                    <img src="assets/img/logo_musicar.png" alt="Musicar - Aprenda e toque a sua música" />
+                </div>
+                <h1 class="page-title"><span>Aprenda</span> e toque a sua <span>música</span></h1>
+                <p class="lead">Aprender música pode e deve ser divertido e do seu jeito =) conta pra gente seu nome e e-mail e se junte a uma galera que está contando os segundos pra começar a ter aulas maneiras e fazer muito som!</p>
+            </header>
+            <div id="sign-up">
+                <form>
+                    <div class="input">
+                        <input type="text" class="left" placeholder="Qual é o seu primeiro nome?" />
+                    </div>
+                    <div class="input">
+                        <input type="text" class="right" placeholder="Qual é o seu e-mail preferido?" />
+                    </div>
+                    <div class="submit clear">
+                        <input type="submit" class="btn waves-effect waves-light yellow accent-4" value="QUERO ME JUNTAR A GALERA!" />
+                    </div>
+                </form>
             </div>
-            <h1><span>Aprenda</span> e toque a sua <span>música</span>.</h1>
-            <p class="lead">Aprender música pode e deve ser divertido e do seu jeito =) conta pra gente seu nome e e-mail e se junte a uma galera que está contando os segundos pra começar a ter aulas maneiras e fazer muito som!</p>
-        </header>
-        <div id="sign-up">
-            <form>
-                <input type="text" placeholder="Qual é o seu primeiro nome?" />
-                <input type="text" placeholder="Qual é o seu e-mail preferido?" />
-                <input type="submit" value="QUERO ME JUNTAR A GALERA!" />
-            </form>
         </div>
     </section>
-    <nav id="main-menu">
-        <ul>
+    <nav id="main-menu" class="white valign-wrapper">
+        <ul class="valign">
             <li>
                 <a href="#">Por que somos legais?</a>
             </li>
@@ -42,7 +52,7 @@
     <main>
         <section id="container-1">
             <header>
-                <h1>Por que somos legais?</h1>
+                <h1 class="section-title-no-bg center-align">Por que somos legais?</h1>
             </header>
             <main>
                 <div>
@@ -63,12 +73,12 @@
                     </div>
                     <p>Você que manda na agenda! As aulas se ajustam ao seu tempo e não o contrário</p>
                 </div>
-                <a href="#">Tô dentro, quero fazer parte!</a>
+                <a href="#" class="center-align">Tô dentro, quero fazer parte!</a>
             </main>
         </section>
         <section id="container-2">
             <header>
-                <h1>Como funciona?</h1>
+                <h1 class="section-title-bg center-align">Como funciona?</h1>
             </header>
             <main>
                 <div>
@@ -89,14 +99,14 @@
                     </div>
                     <p>Pronto! A gente acha os professores, na sua região ou em qualquer outro lugar</p>
                 </div>
-                <a href="#">Uau, quero conhecer mais!</a>
+                <a href="#" class="center-align">Uau, quero conhecer mais!</a>
             </main>
         </section>
         <section id="container-3">
             <header>
-                <h1>Tem algum custo?</h1>
+                <h1 class="section-title-no-bg center-align">Tem algum custo?</h1>
             </header>
-            <main>
+            <main class="center-align">
                 <strong>Criar uma conta e começar a usar custa:</strong>
                 <div>
                     <img src="assets/img/zero_cost.png" alt="Nada! Eliminamos o que custa caro pra você não gastar nenhum centavo com o serviço =D" />
@@ -105,39 +115,40 @@
                 <a href="#">Adorei! Quero me cadastrar!</a>
             </main>
         </section>
-        <section id="container-4">
+        <section id="container-4 center-align">
             <header>
-                <h1>Quero fazer parte!</h1>
+                <h1 class="section-title-bg center-align">Quero fazer parte!</h1>
             </header>
-            <main>
+            <main class="center-align">
                 <p class="lead">Oba! Vem com a gente e junte-se a pessoas que querem aprender música de um jeito diferente.</p>
                 <a href="#">Bora fazer música</a>
                 <aside>
                     <p class="lead">E chama a galera nas redes sociais pra curtir seu som!</p>
                     <div>
-                        <a href="#">
+                        <a href="https://facebook.com/memusicar" target="_blank">
                             <img src="assets/img/icon_facebook.png" alt="Facebook" />
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/memusicar" target="_blank">
                             <img src="assets/img/icon_twitter.png" alt="Twitter" />
                         </a>
                     </div>
                 </aside>
             </main>
-            <footer>
+            <footer class="center-align">
                 <div>
-                    <a href="#">
+                    <a href="#" target="_blank">
                         <img src="assets/img/logo_expomusic.png" alt="Expo Music 2016" />
                     </a>
-                    <a href="#">
+                    <a href="#" target="_blank">
                         <img src="assets/img/logo_wingsup.png" alt="Wings Up" />
                     </a>
-                    <a href="#">
+                    <a href="#" target="_blank">
                         <img src="assets/img/logo_santo_angelo.png" alt="Santo Angelo" />
                     </a>
                 </div>
             </footer>
         </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 </body>
 </html>
