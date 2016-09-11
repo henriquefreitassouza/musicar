@@ -218,6 +218,10 @@
         text-align: center;
     }
     
+    #main-menu ul li:first-child {
+        background-color: #0f143e;    
+    }
+    
     #main-menu ul li img {
         margin-top: 10px;
     }
