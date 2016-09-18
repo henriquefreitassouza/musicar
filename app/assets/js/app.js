@@ -1,4 +1,8 @@
 $(document).ready(function() {
-    $('.site-loader').fadeOut('slow');
+    $('.loader-lightbox, .site-loader').fadeOut('slow');
     $('.button-collapse').sideNav();
+    
+    $('#mc-embedded-subscribe').on('click', function() {
+        
+    });
 });

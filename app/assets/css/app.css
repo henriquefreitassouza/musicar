@@ -96,6 +96,15 @@
     color: #ffffff;
 }
 
+.loader-lightbox {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
 .site-loader {
     position: fixed;
     z-index: 1000;
