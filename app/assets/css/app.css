@@ -127,14 +127,22 @@
     padding: 60px 40px 60px 40px;
 }
 
+#sign-up .input {
+    
+}
+
 #sign-up .input input {
     font-size: 1.5rem;
 }
 
+/* Mailchimp input */
+
+div .mce_inline_error {
+    margin-bottom: 40px;
+}
+
 #main-menu {
     height: 160px;
-    /*position: absolute;
-    top: -160px;*/
 }
 
 .menu-wrapper {

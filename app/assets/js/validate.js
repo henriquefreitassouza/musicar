@@ -1,8 +1,8 @@
 (function($) {
     window.fnames = new Array(); 
     window.ftypes = new Array();
-    fnames[1]='FNAME';ftypes[1]='text';
-    fnames[0]='EMAIL';ftypes[0]='email'; 
+    fnames[0]='FNAME';ftypes[0]='text';
+    fnames[1]='EMAIL';ftypes[1]='email'; 
     /**
      * Translated default messages for the $ validation plugin.
      * Locale: PT_PT
