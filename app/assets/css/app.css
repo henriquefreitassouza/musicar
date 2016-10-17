@@ -116,6 +116,7 @@
 
 #hero {
     background: #012b3b url('../img/hero_banner_background.png') no-repeat top center;
+    background-size: cover;
 }
 
 #hero #header {
@@ -177,10 +178,12 @@ div .mce_inline_error {
 
 #container-2 {
     background: #0d6bb3 url('../img/background_1.png') no-repeat center center;
+    background-size: cover;
 }
 
 #container-4 {
     background: #fcd20e url('../img/background_2.png') no-repeat center center;
+    background-size: cover;
 }
 
 .service-cost {
